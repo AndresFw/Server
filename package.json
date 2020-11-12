@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AndresFw/Server/issues"
   },
-  "homepage": "https://github.com/AndresFw/Server#readme"
+  "homepage": "https://github.com/AndresFw/Server#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
