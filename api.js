@@ -7,8 +7,9 @@ app.use(express.json())
 app.get('/parks/:city', (req, res) => {
     if(req.params.city === 'tunja'){
         res.send('Parque de los novios, laguna park')
+    }else{
+        res.send('No hay registros')
     }
-  res.send('No hay registros')
 })
 
 app.post('/parks/', (req, res) => {
