@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/AndresFw/Server#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "pm2": "^4.5.0"
   }
 }
